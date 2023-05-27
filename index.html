@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/output.css" />
+    <script type="module" src="js/main.js" defer></script>
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="home">
+    <header class="flex primary-header">
+      <div class="logo">
+        <img src="assets/shared/logo.svg" alt="" />
+      </div>
+      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+        <span class="sr-only">Mobile menu toggle button</span>
+      </button>
+      <nav>
+        <ul
+          id="primary-navigation"
+          class="primary-navigation underline-indicators flex"
+          data-visible="false"
+        >
+          <li class="active">
+            <a
+              class="ff-barlow-cond letter-spacing-2 text-white uppercase"
+              href="index.html"
+              ><span aria-hidden="true">00</span>Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-barlow-cond letter-spacing-2 text-white uppercase"
+              href="/pages/destination.html"
+              ><span aria-hidden="true">01</span>Destination</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-barlow-cond letter-spacing-2 text-white uppercase"
+              href="/pages/crew.html"
+              ><span aria-hidden="true">02</span>Crew</a
+            >
+          </li>
+          <li>
+            <a
+              class="ff-barlow-cond letter-spacing-2 text-white uppercase"
+              href="/pages/technology.html"
+              ><span aria-hidden="true">03</span>Technology</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="grid-container grid-container--home">
+      <div>
+        <h1
+          class="fs-500 ff-barlow-cond letter-spacing-2 text-accent uppercase"
+        >
+          So, you want to travel to
+        </h1>
+        <span class="d-block fs-900 text-white ff-bellefair uppercase"
+          >Space</span
+        >
+        <p>
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </div>
+      <div>
+        <a
+          href="destination.html"
+          class="large-button text-dark uppercase bg-white"
+          >Explore</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
