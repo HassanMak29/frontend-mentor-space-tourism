@@ -6,9 +6,9 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        main: resolve(__dirname, "pages/destination.html"),
-        main: resolve(__dirname, "pages/crew.html"),
-        main: resolve(__dirname, "pages/technology.html"),
+        destination: resolve(__dirname, "pages/destination.html"),
+        crew: resolve(__dirname, "pages/crew.html"),
+        technology: resolve(__dirname, "pages/technology.html"),
       },
     },
   },
